@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/385c51fc0a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NARBARD -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Isaac</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#abaoutme" onclick="seleccionar()">ABAOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION HOME -->
+    <section id="home" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/c88757d0-9295-4cab-950e-03a47dade057.jpg" alt="">
+            </div>
+            <h1>ISAAC GUAMANQUISPE</h1>
+            <h2>Web Developer/Front-End</h2>
+            <div class="redes">
+                <a href="https://twitter.com/aaronU__U"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/isaac-guamanquispe-6bb010231/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/IsaacAaron24"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section id="abaoutme" class="sobremi">
+        <div class="contenido-seccion">
+                <h2>Abaout Me </h2>
+                <p><span>Hola, Soy Isaac Guamanquispe</span>  Continuously learning and acquiring new skills based on current and future technological
+                    demands and trends in the field of web application and development in general.
+                    Passionate about the work I do, offering total attention, dedication, personalization
+                    and quality on each project.</p>
+                    
+
+                <div class="fila">
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                24-05-2003
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                0990906575
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                iguamanquisperendon@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-interes">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-running"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LEER</span>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>  
+        </div>
+    </section>
+
+    <!--SECTION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
